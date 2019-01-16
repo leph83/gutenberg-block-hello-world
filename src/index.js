@@ -1,10 +1,11 @@
+const { registerBlockType } = wp.blocks;
+
 const {
-    registerBlockType,
     RichText,
     InspectorControls,
     ColorPalette,
     MediaUpload
-} = wp.blocks;
+} = wp.editor;
 
 registerBlockType('firstgutyblocks/hero-image', {
     title: "Hero Image Block",
